@@ -12,9 +12,26 @@
         <title>JSP Page</title>
     </head>
     <body>
-         <form action="FileUpServlet" method="post" enctype="multipart/form-data" >
+        <table width="80%" border="1" align="center">
+  <tr>
+    <td align="center">
+        <jsp:include page="head.jsp" flush="true"></jsp:include>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <form action="FileUpServlet" method="post" enctype="multipart/form-data" >
         请选择你要上传的文件：<input type="file" name="file1" /><br />
         <input type="submit" value=" 上传 ">
     </form>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+        <jsp:include page="tail.jsp" flush="true"></jsp:include>
+    </td>
+  </tr>
+</table>
+        
     </body>
 </html>

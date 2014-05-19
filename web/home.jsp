@@ -9,10 +9,10 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"  pageEncoding="UTF-8">
-        <title>JSP Page</title>
+        <title>MT website</title>
     </head>
     <body>
-        <table width="80%" border="1" align="center">
+        <table width="80%" border="0" align="center">
   <tr>
     <td align="center">
         <jsp:include page="head.jsp" flush="true"></jsp:include>

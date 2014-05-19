@@ -55,5 +55,11 @@
     <a href="deletedata.jsp">删除记录</a>
     <a href="editdata.jsp">编辑记录</a>
      <a href="upload.jsp">上传文件</a>
-    </div></body>
+    </div>
+     <tr>
+    <td align="center">
+        <jsp:include page="tail.jsp" flush="true"></jsp:include>
+    </td>
+  </tr>
+</body>
 </html>
